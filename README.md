@@ -45,6 +45,22 @@ You can run the test suits with the command below.
 $ npm run test --detectOpenHandles
 
 ```
+
+## Endpoints
+```bash
+http://localhost:4400/api/hacker-news/top-users
+```
+Returns top 10 most occurring words in titles of the last 600 stories of users with at least 10.000 karma
+
+```bash
+http://localhost:4400/api/hacker-news/last-week
+```
+Return top 10 most occurring words in the titles of the post of exactly the last week
+
+```bash
+http://localhost:4400/api/hacker-news
+```
+Returns top 10 most occurring words in the titles of the last 25 stories
 ## Stay in touch
 
 If you've got further questions, please shoot me an email at akandesamson12@gmail.com
