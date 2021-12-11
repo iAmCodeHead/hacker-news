@@ -5,8 +5,8 @@ This is a little [Nest](https://github.com/nestjs/nest) application for fetching
 
 ## Installation
 Ensure you have [Node.js](https://nodejs.org/en/download/) installed. This installation comes with [npm](https://www.npmjs.com/) (node package manager for installing and managing node packages). With this in place:
-* Clone the repo
-* CD into the root directory of your clone
+* Clone the repo (git clone https://github.com/iAmCodeHead/hacker-news.git) from your terminal.
+* CD into the root directory of your clone.
 * Run the command below from your terminal.
 
 ```bash
