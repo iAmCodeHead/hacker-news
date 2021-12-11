@@ -19,7 +19,16 @@ $ npm i -g @nestjs/cli
 ```
 
 ## Running the app
-After installing all dependecies with ```npm install```, you can now start the app with the command below.
+In the root directory of your app, create a ```.env``` file and add the following keys
+```bash
+PORT=4400
+
+NODE_ENV=development
+
+HACKER_NEWS_URL=https://hacker-news.firebaseio.com/v0
+```
+
+After installing all dependencies with ```npm install```, you can now start the app with the command below.
 
 ```bash
 # development
